@@ -10,11 +10,20 @@
 .d-flex{
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 .d-flex img{
     margin-right: 10px;
 }
+.row{
+    padding: 0;
+    margin: 0;
+}
+/*.btnCenter{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    gap: 40px;*/
+/*}*/
 @media (max-width: 992px) {
     .sideBar{
         display: none;
@@ -27,5 +36,11 @@
 @media (max-width: 576px){
     hr{
         display: none;
+    }
+}
+@media screen and (min-width: 1400px){
+    #sHeader{
+        margin-top: 20px;
+        margin-bottom: 27px;
     }
 }
